@@ -190,4 +190,4 @@ def api_delete_ip():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, ssl_context='adhoc', port='8080')
+    app.run(debug=True)
