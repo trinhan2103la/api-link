@@ -4,7 +4,7 @@ import sqlite3
 
 app = Flask(__name__)
 
-db_path = r"C:\Users\ASUS\Documents\Zalo Received Files\SQLiteDatabaseBrowserPortable\listIP.db"
+db_path = r"backend\listIP.db"
 CORS(app)
 
 def get_ping_results_by_ip_type(ip_type):
